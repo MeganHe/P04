@@ -5,7 +5,8 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   font-size: 100%;
   font-weight: normal;
   vertical-align: baseline;
-  background: transparent;
+  background: white;
+  font-family: "Gill Sans","Gill Sans MT","Century Gothic";
 }
 
 article, aside, figure, footer, header, nav, section, details, summary {
@@ -144,7 +145,7 @@ sub {
 }
 
 pre, code, kbd, samp {
-  font-family: monospace, sans-serif;
+   font-family: "Gill Sans", "Gill Sans MT", "Century Gothic";
 }
 
 label,
@@ -213,14 +214,14 @@ button,
 input,
 select,
 textarea {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Century Gothic";
 }
 
 code,
 pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
-  font-family: "Source Code Pro", "Monaco", "Inconsolata", monospace;
+   font-family: "Gill Sans", "Gill Sans MT", "Century Gothic";
   line-height: 1.25;
 }
 

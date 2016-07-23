@@ -7,26 +7,30 @@
 </head>
 
 <body>
-<nav class="fixed-nav-bar">
-<div class="nav-center">
- <ul>
-  <li><a href="#" onclick="changeClass(this.id)" id="menu1" class="anchors">About</a></li>
-  <li><a href="#" onclick="changeClass(this.id)" id="menu2" class="anchors">Projects</a></li>
-  <li><a href="#" onclick="changeClass(this.id)" id="menu3" class="anchors">Contact</a></li>
- </ul>
-</div>
-</nav> 
+<h1>MEGAN HE</h1>
+    <nav class="fixed-nav-bar">
+        <div class="nav-center">
+         <ul>
+          <li><a href="#" onclick="changeClass(this.id)" id="menu1" class="anchors">About</a></li>
+          <li><a href="#" onclick="changeClass(this.id)" id="menu2" class="anchors">Projects</a></li>
+          <li><a href="#" onclick="changeClass(this.id)" id="menu3" class="anchors">Contact</a></li>
+         </ul>
+        </div>
+    </nav> 
 
-<script>
-function changeClass(clicked_id) {
+    <script>
+        function changeClass(clicked_id) {
 
-var element = document.getElementById(clicked_id);
-  for (var i=1;i<=3;i++){
-    document.getElementById('menu'+i).classList.remove('active');
-  }
-  element.setAttribute("class", "active"); 
-}
-</script>
+        var element = document.getElementById(clicked_id);
+          for (var i=1;i<=3;i++){
+            document.getElementById('menu'+i).classList.remove('active');
+          }
+          element.setAttribute("class", "active"); 
+        }
+    </script>
+    
+    <div class="">
+    </div>
 
 </body>
 
