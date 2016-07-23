@@ -1,0 +1,57 @@
+nav {
+    display: inline-block;
+    float: center;
+    margin: 0 auto;
+    margin-top: -12px;
+}
+
+
+nav ul{
+    padding-top: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;  
+    margin-left: 40px;
+    font-family: 'Exo 2', sans-serif;
+    text-shadow: 1px 1px black;
+    letter-spacing: 3px;
+}
+
+nav a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+
+nav a:after{
+  position: absolute;
+  bottom: -2.5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '';
+  background: black;
+  height: 3px;
+}
+
+nav a:hover:after {
+  width: 100%;
+}
+
+nav a:after{
+  transition: all .3555s;
+}
+
+.active {
+    border-bottom: 3px solid black;
+}
+
+.passive {
+  border-bottom: 0px solid black;
+}
