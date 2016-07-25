@@ -9,7 +9,9 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   font-family: "Gill Sans","Gill Sans MT","Century Gothic";
 }
 
+
 article, aside, figure, footer, header, nav, section, details, summary {
+    
   display: block;
 }
 
@@ -6658,8 +6660,12 @@ a.panel-block:hover {
 }
 
 .footer {
-  background-color: #f5f7fa;
+  background-color:white;
   padding: 40px 20px 80px;
+  color: black;
+  letter-spacing: 1.5px;
+  font-size: 11px;
+    
 }
 
 .footer a, .footer a:visited {

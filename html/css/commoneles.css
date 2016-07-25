@@ -1,0 +1,28 @@
+.line_black{
+    height:12px;
+    width:50px;
+    background-color: black;
+}
+
+.line_white{
+    height:12px;
+    width:50px;
+    background-color: white;
+}
+
+
+.project_describe_title{
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 6px;
+}
+
+.paragraph{
+    font-family: "Open Sans";
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
