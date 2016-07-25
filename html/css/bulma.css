@@ -3343,7 +3343,7 @@ a.box:active {
         -ms-flex: none;
             flex: none;
     width: 91.66667%;
-         padding: 0;
+       
   }
   .column.is-five-sixths-mobile {
     -webkit-box-flex: 0;
@@ -3352,6 +3352,7 @@ a.box:active {
             flex: none;
     width: 83.33334%;
   }
+
   .column.is-three-quarters-mobile {
     -webkit-box-flex: 0;
     -webkit-flex: none;
@@ -3401,6 +3402,9 @@ a.box:active {
   }
   .column.is-offset-one-quarter-mobile {
     margin-left: 25%;
+  }
+   .column.is-offset-one-twenty-fourth-mobile {
+    margin-left: 4.1666%;
   }
   .column.is-1-mobile {
     -webkit-box-flex: 0;
@@ -3597,6 +3601,9 @@ a.box:active {
   }
   .column.is-offset-1, .column.is-offset-1-tablet {
     margin-left: 8.33333%;
+  }
+  .column.is-offset-13, .column.is-offset-13-tablet {
+    margin-right: 8.33333%;
   }
   .column.is-2, .column.is-2-tablet {
     -webkit-box-flex: 0;
