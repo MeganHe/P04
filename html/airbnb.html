@@ -50,21 +50,52 @@
     
    <div class="columns is-mobile">
      
-        <div class="column project_describe_title is-offset-1">
-            <h6> PROJECT BRIEF </h6>
+        <div class="column 
+                    is-two-fifth 
+                    is-offset-1
+                    is-five-sixths-mobile
+                    is-offset-13-mobile">
+            <h6 class=" project_describe_title "> PROJECT BRIEF </h6>
+              <p>We are designing a new feature for Airbnb to improve the UX. We explore the existing iterface, analyze the way interaction patterns, features and brand of the Airbnb's mobile application, investigate who are the primary users of the interface are and what are the goals of thses users.</p>
         </div>
-   </div>
-   
-   <div class="columns is-mobile ">
+        <!--<div class="column is-five-sixths-mobile is-offset-1-mobile">--->
       
-        <div class="column is-five-sixths-mobile is-offset-1 is-offset-1-mobile">
-        <p>We are designing a new feature for Airbnb to improve the UX. We explorethe existing iterface, analyze the way interaction patterns, features and brand of the Airbnb's mobile application, investigate who are the primary users of the interface are and what are the goals of thses users.</p>
+        <!--</div>----> 
+        <div class="column para-right
+                    is-two-fifth 
+                    is-offset-14
+                    is-offset-13
+                    is-five-sixths-mobile
+                    is-offset-13-mobile">
+          
+            <h6 class=" project_describe_title "> RESEARCH + FINDING</h6>
+              <p id="textArea">Airbnb is an online community marketplace that connects people looking to rent their homes with people who are looking for accommodations. We are conducted by the IDEO research methods and then we analyze their primary user is
+              travelers who prefer to live in places with full amenities and a feeling like home.</p>
+             
+            <a id="toggleButton" onclick="toggleText();" href="javascript:void(0);">Read More</a>
+        
         </div>
-       <div class="column auto second_pragraph is-offset-1 is-offset-13">
-        <p>We are designing a new feature for Airbnb to improve the UX. We explorethe existing iterface, analyze the way interaction patterns, features and brand of the Airbnb's mobile application, investigate who are the primary users of the interface are and what are the goals of thses users.</p>
-        </div>
-   
    </div>
+   <script>
+  var status = "less";
+
+function toggleText()
+{
+    var text="Airbnb is an online community marketplace that connects people looking to rent their homes with people who are looking for accommodations. We are conducted by the IDEO research methods and then we analyze their primary user is travelers who prefer to live in places with full amenities and a feeling like home. Comparing to hotels, Airbnb is more flexible and active.interviewed 100 participants and doucumened their reponse designing a new feature Joint Account to make multiple users who are going to live in the room together during their trip much easier and more effcient. Everyone is able to talk to the host and receive everything from the room they choose.";
+    var textoriginal="Airbnb is an online community marketplace that connects people looking to rent their homes with people who are looking for accommodations. We are conducted by the IDEO research methods and then we analyze their primary user is travelers who prefer to live in places with full amenities and a feeling like home.";
+    
+    if (status == "less") {
+        document.getElementById("textArea").innerHTML=text;
+        document.getElementById("toggleButton").innerText = "Read Less";
+        status = "more";
+    } else if (status == "more") {
+       document.getElementById("textArea").innerHTML = textoriginal;
+        document.getElementById("toggleButton").innerText = "Read More";
+        status = "less"
+    }
+}
+   </script>
+
     
    
     
