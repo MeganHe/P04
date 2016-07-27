@@ -16,6 +16,7 @@
     letter-spacing: 2px;
     color: black;
     padding-top: 6px;
+ 
 }
 
 p{
@@ -35,4 +36,12 @@ p{
 
 .image-whitespace{
     padding-top: 90px;
+}
+
+.image-whitespace2{
+   padding-top: 150px; 
+}
+
+.para-right{
+    margin-left: 0;
 }

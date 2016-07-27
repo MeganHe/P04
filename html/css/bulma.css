@@ -3783,6 +3783,14 @@ a.box:active {
             flex: none;
     width: 25%;
   }
+    
+  .column.is-one-fifth-desktop {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+    width: 20%;
+  }    
   .column.is-offset-three-quarters-desktop {
     margin-left: 75%;
   }

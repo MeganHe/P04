@@ -1,6 +1,9 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+<meta charset="utf-8">
+<title>Airbnb project</title> 
 <link href="css/home.css" rel="stylesheet">
 <link href="css/bulma.css" rel="stylesheet">
 <link href="css/font.css" rel="stylesheet">
@@ -38,7 +41,7 @@
             <div class="line_black"></div>
         </div>
         <div class="column project_describe_title">
-            <h6> UI + UX DESIGN </h6>
+            <h6 class="slideInRight"> UI + UX DESIGN </h6>
         </div>
     </div>
     
@@ -47,20 +50,26 @@
             <img src="img/airbnb-logo880x628.png" alt="home_left_img" >
         </div>
    </div>
+   
     
-   <div class="columns is-mobile">
+   <div class="columns"> 
+        <div class="columns is-mobile">
      
         <div class="column 
-                    is-two-fifth 
+                      
                     is-offset-1
                     is-five-sixths-mobile
                     is-offset-13-mobile">
             <h6 class=" project_describe_title "> PROJECT BRIEF </h6>
-              <p>We are designing a new feature for Airbnb to improve the UX. We explore the existing iterface, analyze the way interaction patterns, features and brand of the Airbnb's mobile application, investigate who are the primary users of the interface are and what are the goals of thses users.</p>
+              <p>We are designing a new feature for Airbnb to improve the UX. We explore the existing interface, analyze the way interaction patterns, features and brand of the Airbnb's mobile application, investigate who are the primary users of the interface are and what are the goals of thses users.</p>
         </div>
-        <div class="column para-right
-                    is-two-fifth 
-                    is-offset-14
+       </div>
+       
+       <div class="columns is-mobile">
+        <div class="column 
+                   
+                    is-offset-1
+                 
                     is-offset-13
                     is-five-sixths-mobile
                     is-offset-13-mobile">
@@ -69,16 +78,16 @@
               <p id="textArea">Airbnb is an online community marketplace that connects people looking to rent their homes with people who are looking for accommodations. We are conducted by the IDEO research methods and then we analyze their primary user is travelers who prefer to live in places with full amenities and a feeling like home.</p>
              
             <a id="toggleButton" onclick="toggleText();" href="javascript:void(0);">Read More</a>       
-        </div>
-       
-   </div>
-    
+        </div>      
+       </div>
+   </div>    
    <script>
     var status = "less";
 
     function toggleText()
     {
     var text="Airbnb is an online community marketplace that connects people looking to rent their homes with people who are looking for accommodations. We are conducted by the IDEO research methods and then we analyze their primary user is travelers who prefer to live in places with full amenities and a feeling like home. Comparing to hotels, Airbnb is more flexible and active.<p>We interviewed 100 participants to understand their motivation, patterns, situation and their language likw what are they thinking and believe to look for our design opportunity.</p><p>Through our research, we find out that designing a new feature Joint Account to make multiple users who are going to live in the room together during their trip much easier and more effcient. Everyone is able to talk to the host and receive everything from the room they choose.</p>";
+
     var textoriginal="Airbnb is an online community marketplace that connects people looking to rent their homes with people who are looking for accommodations. We are conducted by the IDEO research methods and then we analyze their primary user is travelers who prefer to live in places with full amenities and a feeling like home.";
     
     if (status == "less") {
@@ -95,6 +104,26 @@
 
     <div class="column image-whitespace">
         <img src="img/airbnbhome.png" alt="airbnb-big-image" >
+    </div>
+    
+    <div class="columns">
+        <div class="column is-4">
+            <h6> </h6>
+        </div>
+        <div class="column is-6 image-whitespace2 
+                  present">
+            <figure class="image">
+            <img src="img/present.png" alt="switch-to-group">
+            </figure>
+
+        </div>
+    </div>
+    
+     <div class="column image-whitespace2 
+              present is-offset-1 is-offset-13">
+        <figure class="image">
+        <img src="img/present2.png" alt="switch-to-group">
+        </figure>
     </div>
     
 
