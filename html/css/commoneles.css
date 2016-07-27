@@ -12,19 +12,39 @@
 
 
 .project_describe_title{
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 2px;
     color: black;
     padding-top: 6px;
- 
+    
 }
+
+.info-title{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color:#a8a8a8;
+    padding-top: 6px; 
+}
+
+
+.project_describe_title-bold{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 6px;
+    font-weight: 600;
+}
+.info-details{
+    color: #7e7e7e;
+}
+
 
 p{
     font-family: "Open Sans";
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 20px;
     color: black;
        -webkit-box-flex: 1;
