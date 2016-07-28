@@ -1,14 +1,21 @@
 .image-margin-top{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .image-margin-bottom{
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 .less-space-bt-t-p{
-    padding: 0;
-    margin-top: -20px;  
+    margin-top: -15px;
+}
+
+
+.less-space-bt-t-icon{
+    margin-top: -38px;
+}
+.more-space-bt-t-img{
+    margin-top: 60px; 
 }
 
 .big-title{
-    margin-top: 40px;
+    margin-top: 90px;
 }

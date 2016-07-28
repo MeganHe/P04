@@ -3195,6 +3195,18 @@ a.box:active {
   width: 8.33333%;
 }
 
+.columns.is-mobile > .column.is-13 {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+  width: 12%;
+}
+
+.columns.is-mobile > .column.is-offset-1 {
+  margin-left: 8.33333%;
+}
+
 .columns.is-mobile > .column.is-offset-1 {
   margin-left: 8.33333%;
 }
