@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 <meta charset="utf-8">
@@ -7,6 +7,7 @@
 <link href="css/home.css" rel="stylesheet">
 <link href="css/bulma.css" rel="stylesheet">
 <link href="css/font.css" rel="stylesheet">
+<link href="css/airbnb.css" rel="stylesheet">
 <link href="css/commoneles.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
@@ -14,13 +15,13 @@
 <body>
 
 <h1>MEGAN HE</h1>
-    <nav class="fixed-nav-bar">
-        <div class="nav-center">
+    <nav>
+        <div class="nav-center is-hidden-mobile">
          <ul>
               
-          <li><a href="about.html" onclick="changeClass(this.id)" id="menu1" class="anchors">About</a></li>
-          <li><a href="project.html" onclick="changeClass(this.id)" id="menu2" class="anchors">Projects</a></li>
-          <li><a href="contact.html" onclick="changeClass(this.id)" id="menu3" class="anchors">Contact</a></li>
+          <li><a href="about.html" onclick="changeClass(this.id)" id="menu1" class="anchors"><h2>About</h2></a></li>
+          <li><a href="project.html" onclick="changeClass(this.id)" id="menu2" class="anchors"><h2>Projects</h2></a></li>
+          <li><a href="contact.html" onclick="changeClass(this.id)" id="menu3" class="anchors"><h2>Contact</h2></a></li>
          </ul>
         </div>
     </nav> 
@@ -36,118 +37,116 @@
         }
     </script>
     
-    <div class="columns is-mobile">
+    <div class="columns is-mobile project-title-margin">
         <div class="column is-1">
             <div class="line_black"></div>
         </div>
-        <div class="column project_describe_title">
-            <h6> UI + UX DESIGN </h6>
-        </div>
+            <h3 class="title-space"> UI + UX DESIGN </h3>   
     </div>
     
    <div class="columns is-mobile">
         <div class="column is-half is-offset-one-quarter">
+            <div class="image-margin-top image-margin-bottom">
             <img src="img/airbnb-logo880x628.png" alt="home_left_img" >
+            </div>
         </div>
    </div>
    
+<!----Project information---->
+   <div class="columns is-mobile">
+        <div class="column is-1"></div>   
+       <h4 class="title-space">INFOR</h4> 
+   </div>
     
-   <div class="columns">
-       <div class="column info-title is-2 is-offset-1">
-       <h6 >INFORMATION</h6> 
+   <div class="columns">    
+       <div class="column is-2 is-offset-3">
+       <h5 class="title-space">ROLE</h5>
        </div>
-        <div class="column is-2 project_describe_title-bold">
-       <h6>TASKS</h6>
+        <div class="column is-2 is-offset-1">
+       <h5 class="title-space">GOAL</h5>
        </div>
-       <div class="column is-2 project_describe_title-bold">
-       <h6>GOALS</h6>
+       <div class="column is-2 is-offset-1">
+       <h5 class="title-space">PROCESS</h5>
        </div>
    </div>
     
-   <div class="columns">
-        <div class="column is-2 is-offset-3">
-           <p class="info-details">
-           Improve group booking task's efficiency
+   <div class="columns less-space-bt-t-p">
+    
+        <div class="column is-2 is-offset-3 ">
+            
+           <p class="info-details title-space">
+            UI + UX design
            </p>
-           <p class="info-details">
-           Improve group's UX
+    
+        </div>
+       
+        <div class="column is-2">
+           <p class="info-details title-space">
+           Modeling new <br>features
+           </p>
+           <p class="info-details title-space">
+           
            </p>
        </div>
        
        <div class="column is-2">
-           <p class="info-details">
-           Improve group booking task's efficiency
+           <p class="info-details title-space">
+            User research
            </p>
-           <p class="info-details">
-           Improve group's UX
+           <p class="info-details title-space">
+            Explore opportunities
+           </p>
+           <p class="info-details title-space">
+            Analyze interaction 
            </p>
        </div>
-   </div>    
-   <div class="columns"> 
-        <div class="columns is-mobile">
-     
-        <div class="column 
-                      
-                    is-offset-1
-                    is-five-sixths-mobile
-                    is-offset-13-mobile">
-            <h6 class=" project_describe_title "> PROJECT BRIEF </h6>
-              <p>We are designing a new feature for Airbnb to improve the UX. We explore the existing interface, analyze the way interaction patterns, features and brand of the Airbnb's mobile application, investigate who are the primary users of the interface are and what are the goals of thses users.</p>
-        </div>
-       </div>
-       
-       <div class="columns is-mobile">
-        <div class="column 
-                   
-                    is-offset-1
-                 
-                    is-offset-13
-                    is-five-sixths-mobile
-                    is-offset-13-mobile">
-          
-            <h6 class=" project_describe_title "> RESEARCH + FINDING</h6>
-              <p id="textArea">Airbnb is an online community marketplace that connects people looking to rent their homes with people who are looking for accommodations. We are conducted by the IDEO research methods and then we analyze their primary user is travelers who prefer to live in places with full amenities and a feeling like home.</p>
-             
-            <a id="toggleButton" onclick="toggleText();" href="javascript:void(0);">Read More</a>       
-        </div>      
-       </div>
-   </div>    
-   <script>
-    var status = "less";
-
-    function toggleText()
-    {
-    var text="Airbnb is an online community marketplace that connects people looking to rent their homes with people who are looking for accommodations. We are conducted by the IDEO research methods and then we analyze their primary user is travelers who prefer to live in places with full amenities and a feeling like home. Comparing to hotels, Airbnb is more flexible and active.<p>We interviewed 100 participants to understand their motivation, patterns, situation and their language likw what are they thinking and believe to look for our design opportunity.</p><p>Through our research, we find out that designing a new feature Joint Account to make multiple users who are going to live in the room together during their trip much easier and more effcient. Everyone is able to talk to the host and receive everything from the room they choose.</p>";
-
-    var textoriginal="Airbnb is an online community marketplace that connects people looking to rent their homes with people who are looking for accommodations. We are conducted by the IDEO research methods and then we analyze their primary user is travelers who prefer to live in places with full amenities and a feeling like home.";
+   </div>  
+<!----Project information end---->
     
-    if (status == "less") {
-            document.getElementById("textArea").innerHTML=text;
-            document.getElementById("toggleButton").innerText = "Read Less";
-            status = "more";
-        } else if (status == "more") {
-           document.getElementById("textArea").innerHTML = textoriginal;
-            document.getElementById("toggleButton").innerText = "Read More";
-            status = "less"
-        }
-    }
-   </script>
-
-    <div class="column image-whitespace">
-        <img src="img/airbnbhome.png" alt="airbnb-big-image" >
+ 
+   <div class="column image-whitespace">
+        <img src="img/airbnbhome.jpg" alt="airbnb-big-image" >
     </div>
     
-    <div class="columns">
-        <div class="column is-4">
-            <h6> </h6>
+<!----what we find---->
+    <div class="columns is-mobile big-title">
+        <div class="column is-1"></div>   
+        <h4 class="title-space">WHAT WE FIND</h4>
+    </div>
+    
+       <div class="columns less-space-bt-t-p">
+        <div class="column is-6 is-offset-3">
+           <p>
+           Some users choose Airbnb is because they are usually have more than two people traveling. Thus, comparing to hotels, Airbnb is more flexible.
+           </p>   
+        </div>      
+    </div>
+<!----what we find end----> 
+    
+<!----Therefore----> 
+        <div class="columns is-mobile big-title">
+        <div class="column is-1"></div>   
+        <h4 class="title-space">THEREFORE</h4>
         </div>
-        <div class="column is-6 image-whitespace2 
-                  present">
-            <figure class="image">
+    
+        <div class="columns less-space-bt-t-p">
+        <div class="column is-6 is-offset-3">
+           <p>
+           We designed "Joint Account" feature in order to make multiple users who are going to live in the room together during their trip much easier and more effucent. Everyone is able to talk to the host and receiev everything from the room they choose.
+           </p>   
+        </div>      
+    </div>
+<!----Therefore end---->     
+    
+        <div class="columns is-mobile big-title">
+        <div class="column is-1"></div>   
+        <h4 class="title-space">HOW</h4>
+        </div>
+    
+        <div class="columns less-space-bt-t-p">
+        <div class="column is-5 is-offset-3">
             <img src="img/present.png" alt="switch-to-group">
-            </figure>
-
-        </div>
+        </div>      
     </div>
     
      <div class="column image-whitespace2 

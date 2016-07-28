@@ -1,8 +1,40 @@
 h1{
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     text-align: center;
     letter-spacing: 3px;
     font-weight: 600;
-    padding-top:50px;
+    padding-top:80px;
+}
+
+h2{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+
+h3{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+h4{
+   font-size: 30px;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 600; 
+}
+
+h5{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 6px;
+    font-weight: 500;
 }

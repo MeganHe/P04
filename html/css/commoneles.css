@@ -1,9 +1,11 @@
 .line_black{
-    height:12px;
-    width:50px;
+    height:14px;
+    width:100%;
     background-color: black;
 }
-
+.project-title-margin{
+    margin-top: 100px;
+}
 .line_white{
     height:12px;
     width:50px;
@@ -11,14 +13,12 @@
 }
 
 
-.project_describe_title{
-    font-size: 16px;
-    letter-spacing: 2px;
-    color: black;
-    padding-top: 6px;
-    
+.title-space{
+    margin-left:  4.1666%;
 }
-
+.ten-space{
+    padding-left: 20px;
+}
 .info-title{
     font-size: 16px;
     letter-spacing: 2px;
@@ -26,14 +26,6 @@
     padding-top: 6px; 
 }
 
-
-.project_describe_title-bold{
-    font-size: 16px;
-    letter-spacing: 2px;
-    color: black;
-    padding-top: 6px;
-    font-weight: 600;
-}
 .info-details{
     color: #7e7e7e;
 }
@@ -65,3 +57,4 @@ p{
 .para-right{
     margin-left: 0;
 }
+

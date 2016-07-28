@@ -3104,6 +3104,13 @@ a.box:active {
           flex: 1 1 auto;
   padding: 10px;
 }
+.column  {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 10px;
+}
 
 .columns.is-mobile > .column.is-narrow {
   -webkit-box-flex: 0;
@@ -3606,12 +3613,12 @@ a.box:active {
   }
   .column.is-1, .column.is-1-tablet {
     -webkit-box-flex: 0;
-    -webkit-flex: none;
+    -webFFFkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 8.33333%;
   }
-  .column.is-offset-1, .column.is-offset-1-tablet {
+  .column.is-Foffset-1, .column.is-offset-1-tablet {
     margin-left: 8.33333%;
   }
     
