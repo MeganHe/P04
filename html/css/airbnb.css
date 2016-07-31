@@ -1,24 +1,47 @@
 .image-margin-top{
-    margin-top: 60px;
+    margin-top: 10%;
 }
 .image-margin-bottom{
     margin-bottom: 60px;
 }
+
 .less-space-bt-t-p{
     margin-top: -15px;
 }
-
+.less-space-bt-t-redp{
+    margin-top: -5%;
+}
 
 .less-space-bt-t-icon{
-    margin-top: -38px;
+    margin-top: -10%;
 }
 .more-space-bt-t-img{
     margin-top: 60px; 
 }
 
+.airbnb-logo{
+    z-index: 2;
+}
 .big-title{
     margin-top: 90px;
 }
 .grey-text{
     color: #7e7e7e;
+}
+
+.before{
+    position: relative;
+   	transform: translate(15%, 180%);
+    z-index: 2;
+    background: transparent;
+}
+.airbnbtitle{
+   font-size: 35px;
+   color:#ff5a5f;
+    letter-spacing: 8px;
+     font-weight: 600; 
+}
+.airbnb-intro{
+    font-size:20px;
+    line-height: 30px;
 }

@@ -26,14 +26,19 @@
 .no-ten-space{
    padding: 0;
 }
+
+.more-space-t-t{
+   margin-top: 20px;
+}
+.more-space-t-t-2{
+   margin-top: 100px;  
+}
 .info-title{
     font-size: 16px;
     letter-spacing: 2px;
     color:#a8a8a8;
     padding-top: 6px; 
 }
-
-
 
 
 p{
@@ -52,12 +57,12 @@ p{
 }
 
 .image-whitespace-1{
-    margin-top:30px;
-     margin-bottom:30px;
+    margin-top:60px;
+    margin-bottom:60px;
 }
 
 .image-whitespace-2{
-   padding-top: 40px; 
+   margin-top:60px; 
 }
 
 .para-right{
