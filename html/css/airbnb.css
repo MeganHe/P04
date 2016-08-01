@@ -1,12 +1,23 @@
-.image-margin-top{
-    margin-top: 10%;
+.space-margin-top{
+    margin-top: 50%;
 }
-.image-margin-bottom{
-    margin-bottom: 60px;
+.space-margin-top-25{
+    margin-top: 25%;
+}
+.space-margin-bottom{
+    margin-bottom: 15%;
+}
+
+.less-space-bt-tt{
+    margin-left: -5%;
 }
 
 .less-space-bt-t-p{
-    margin-top: -15px;
+    margin-top: -3%;
+}
+.less-space-bt-t-p-1{
+    padding-top:-4px;
+    margin-top: -px;
 }
 .less-space-bt-t-redp{
     margin-top: -5%;
@@ -18,7 +29,60 @@
 .more-space-bt-t-img{
     margin-top: 60px; 
 }
-
+.more-space-mm{
+    margin-top: 6%;
+}
+.paragragh{
+ 
+}
+.img-title{
+     background-color: transparent;
+    margin-bottom: -1%;
+    margin-top: 2%;
+}
+.persona{
+    font-size: 16px;
+    letter-spacing: 13px;
+    color: black;
+    font-weight: 500; 
+}
+.phone-desc{
+    font-size: 12px;
+    margin-top: 0.1%;
+}
+.phone-title{
+    background-color: transparent;
+    margin-top: -4%;
+}
+p{
+/*    font-family: "Open Sans";*/
+    font-family: "Century Gothic";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+    color: black;
+       -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+    letter-spacing: 0.8px;
+}
+.same-level-pt{
+    font-family: "Century Gothic";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+    color: black;
+       -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+    letter-spacing: 0.8px;
+}
 .airbnb-logo{
     z-index: 2;
 }
@@ -28,7 +92,13 @@
 .grey-text{
     color: #7e7e7e;
 }
-
+.grey{
+    color: #bdbdbd;
+    text-align: right;
+}
+.sub-t-brief{
+    text-align: right;
+}
 .before{
     position: relative;
    	transform: translate(15%, 180%);
@@ -38,10 +108,14 @@
 .airbnbtitle{
    font-size: 35px;
    color:#ff5a5f;
+    text-align: left;
     letter-spacing: 8px;
      font-weight: 600; 
 }
 .airbnb-intro{
     font-size:20px;
     line-height: 30px;
+}
+.airbnb-defination{
+    text-align: left;
 }

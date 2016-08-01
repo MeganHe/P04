@@ -1,7 +1,17 @@
 .line_black{
     height:14px;
-    width:100%;
+    width:80%;
     background-color: black;
+}
+.grey-line{
+    height:1px;
+    width:100%;
+    background-color:#d3d3d3;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.grey-line-space-adjust{
+     margin-top: 2%;
 }
 .project-title-margin{
     margin-top: 100px;
@@ -41,24 +51,11 @@
 }
 
 
-p{
-    font-family: "Open Sans";
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-    color: black;
-       -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-    letter-spacing: 0.3px;
-}
+
 
 .image-whitespace-1{
     margin-top:60px;
-    margin-bottom:60px;
+
 }
 
 .image-whitespace-2{
