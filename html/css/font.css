@@ -14,6 +14,13 @@ h1{
     letter-spacing: 3px;
     font-weight: 600;
 }
+.project-title{
+    font-size: 35px;
+    color:black;
+    text-align: left;
+    letter-spacing: 8px;
+     font-weight: 600;  
+}
 .mobile-h1{
     font-size: 25px;
     color: black;
