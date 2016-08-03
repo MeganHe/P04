@@ -3,7 +3,8 @@ figure.snip1321 {
 /*  position: relative;*/
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
+/*project image margin*/
+  margin: 5.16666% 1%;
 /*
   min-width: 500px;
   max-width: 315px;

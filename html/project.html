@@ -5,7 +5,8 @@
 <link href="css/bulma.css" rel="stylesheet">
 <link href="css/font.css" rel="stylesheet">
 <link href="css/commoneles.css" rel="stylesheet">
-    <link href="css/project.css" rel="stylesheet">
+<link href="css/project.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -24,6 +25,22 @@
         </div>
     </nav> 
 
+    
+<!--mobile bottom nav-->
+    <div id="cd-nav">
+		<a href="#0" class="cd-nav-trigger"><span></span></a>
+
+		<nav id="cd-main-nav">
+			<ul>
+				<li><a href="#0">Home</a></li>
+				<li><a href="#0">Project</a></li>
+				<li><a href="#0">About</a></li>
+				<li><a href="#0">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+<!--mobile bottom nav end-->  
+    
     <script>
         function changeClass(clicked_id) {
 
@@ -48,9 +65,9 @@
 
     
      <div class="columns is-gapless is-multiline is-hidden-mobile space-margin-top"> 
-       <div class="column is-17"></div>   
+       <div class="column is-18"></div>   
 
-       <div class="column is-5 no-ten-space">
+       <div class="column is-4">
                <figure class="snip1321"> <img src="img/home1.jpg" alt="home_left_img" >
                   <figcaption><i class="ion-share"></i>
                     <h4>Airbnb new feature</h4>
@@ -58,17 +75,29 @@
                   </figcaption>   <a href="airbnb.html"></a>
                 </figure>   
        </div>
+        
+       <div class="column is-14"></div>  
+             <div class="column is-4">
+                   <figure class="snip1321"> <img src="img/Logo.jpg" alt="home_left_img" >
+                      <figcaption><i class="ion-share"></i>
+                        <h4>Honor international    </h4>
+                        <h2>Logo design</h2>
+                      </figcaption>   <a href="honor.html"></a>
+                    </figure>   
+       </div>
+           <div class="column is-18"></div>       
          
-        <div class="column is-17"></div>  
-         <div class="column is-5 no-ten-space">
+         
+        <div class="column is-18"></div>  
+         <div class="column is-4 no-ten-space">
                <figure class="snip1321"> <img src="img/home2.jpg" alt="home_left_img" >
                   <figcaption><i class="ion-share"></i>
-                    <h4>Quiche    </h4>
-                    <h2>Hollandaise</h2>
-                  </figcaption>   <a href="airbnb.html"></a>
+                    <h4>Bites    </h4>
+                    <h2>UI/UX design</h2>
+                  </figcaption>   <a href=""></a>
                 </figure>   
        </div>
-           <div class="column is-17"></div>   
+           <div class="column is-18"></div>   
   </div>
     
 
@@ -82,7 +111,10 @@
          </div>
     </div>
     </footer>
+
     
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> 
 </body>
 
 </html>

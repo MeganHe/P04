@@ -3695,6 +3695,18 @@ a.box:active {
         margin-left: 5.55555%;
     }
     
+.column.is-18, .column.is-18-tablet {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+    width: 14.58333%;
+  }
+    .column.is-offset-18, .column.is-offset-18-tablet{
+        margin-left:14.58333%;
+    }
+    
+    
   .column.is-3, .column.is-3-tablet {
     -webkit-box-flex: 0;
     -webkit-flex: none;
