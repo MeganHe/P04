@@ -17,7 +17,7 @@
 }
 .less-space-bt-t-p-1{
     padding-top:-4px;
-    margin-top: -px;
+
 }
 .less-space-bt-t-redp{
     margin-top: -5%;
@@ -32,9 +32,7 @@
 .more-space-mm{
     margin-top: 6%;
 }
-.paragragh{
- 
-}
+
 .img-title{
      background-color: transparent;
     margin-bottom: -1%;
@@ -56,8 +54,8 @@
     margin-top: -2%;
 }
 p{
-/*    font-family: "Open Sans";*/
-    font-family: "Century Gothic";
+    font-family: "Open Sans";
+/*    font-family: "Century Gothic";*/
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -71,7 +69,7 @@ p{
     letter-spacing: 0.8px;
 }
 .same-level-pt{
-    font-family: "Century Gothic";
+     font-family: "Open Sans";
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -117,4 +115,9 @@ p{
     font-size:20px;
     line-height: 30px;
 }
+
+.phone-phone-space{
+    margin-top: 5%;
+}
+
 
