@@ -1,0 +1,121 @@
+<html>
+
+<head>
+<link href="css/home.css" rel="stylesheet">
+<link href="css/bulma.css" rel="stylesheet">
+<link href="css/font.css" rel="stylesheet">
+<link href="css/commoneles.css" rel="stylesheet">
+<link href="css/project.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<h1>MEGAN HE</h1>
+    <nav>
+        <div class="nav-center is-hidden-mobile">
+         <ul>
+              
+          <li><a href="about.html" onclick="changeClass(this.id)" id="menu1" class="anchors">About</a></li>
+          <li><a href="project.html" onclick="changeClass(this.id)" id="menu2" class="anchors">Projects</a></li>
+          <li><a href="contact.html" onclick="changeClass(this.id)" id="menu3" class="anchors">Contact</a></li>
+         </ul>
+        </div>
+    </nav> 
+    
+
+<!--mobile bottom nav-->
+    <div id="cd-nav">
+		<a href="#0" class="cd-nav-trigger"><span></span></a>
+
+		<nav id="cd-main-nav">
+			<ul>
+				<li><a href="#0">Home</a></li>
+				<li><a href="#0">Project</a></li>
+				<li><a href="#0">About</a></li>
+				<li><a href="#0">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+<!--mobile bottom nav end-->  
+    
+    <script>
+        function changeClass(clicked_id) {
+
+        var element = document.getElementById(clicked_id);
+          for (var i=1;i<=3;i++){
+            document.getElementById('menu'+i).classList.remove('active');
+          }
+          element.setAttribute("class", "active"); 
+        }
+    </script>
+    
+    <script>
+    $(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
+    </script>
+    
+
+    
+
+    
+     <div class="column is-offset-4 is-11-mobile is-offset-13-mobile is-4"> 
+           
+
+         <form class="here-to-there form-frame">
+
+               
+                <span class ="attr">NAME</span>
+
+             	<input type="text" class="input">
+             
+
+                <span class ="attr">E-MAIL</span>
+
+               <input type="text" class="input">
+                <span class="attr">SUBJECT</span>
+
+                <input type="text" class="input">
+                <span class="attr">MESSAGE</span>
+                            
+                <textarea class="focus">
+                 </textarea>
+             
+               <a class="button">SUBMIT</a>
+        </form>
+ 
+    </div> 
+         
+    
+
+
+    
+
+   
+     
+
+    
+    
+    
+    
+<footer class="footer">
+    <div class="container">
+         <div class="content has-text-centered">
+             
+             SITE BY MEGAN HE 
+             
+         </div>
+    </div>
+</footer>
+
+    
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> 
+</body>
+
+</html>

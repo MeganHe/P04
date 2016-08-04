@@ -745,9 +745,9 @@ a.box:active {
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
-  border: 1px solid #d3d6db;
-  border-radius: 3px;
-  color: #222324;
+  border: 1px solid  #888;
+/*  border-radius: 3px;*/
+  color:  #888;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -770,15 +770,19 @@ a.box:active {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+    text-decoration: none;
   white-space: nowrap;
+  
+margin-top: 9%;
+  width: 100%;
 }
 
 .button:hover {
-  border-color: #aeb1b5;
+  border-color: black;
 }
 
 .button:active, .button:focus, .button.is-active {
-  border-color: #1fc8db;
+  border-color: pink;
   outline: none;
 }
 
@@ -1385,7 +1389,7 @@ a.box:active {
           align-items: center;
   background-color: white;
   border: 1px solid #d3d6db;
-  border-radius: 3px;
+/*  border-radius: 3px;*/
   color: #222324;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1402,19 +1406,35 @@ a.box:active {
   padding-right: 8px;
   position: relative;
   vertical-align: top;
-  box-shadow: inset 0 1px 2px rgba(17, 17, 17, 0.1);
+/*  box-shadow: inset 0 1px 2px rgba(17, 17, 17, 0.1);*/
   max-width: 100%;
   width: 100%;
 }
 
+
+
+/*
+
+
 .input:hover, .textarea:hover {
   border-color: #aeb1b5;
 }
+*/
+
+/*
 
 .input:active, .textarea:active, .input:focus, .textarea:focus, .input.is-active, .is-active.textarea {
   border-color: #1fc8db;
   outline: none;
 }
+*/
+
+/*add*/
+.input:active, .input:focus,  .input.is-active{
+   outline: none;
+    border-bottom:1px solid black;
+}
+/*add*/
 
 .input[disabled], [disabled].textarea, .input.is-disabled, .is-disabled.textarea {
   background-color: #f5f7fa;
