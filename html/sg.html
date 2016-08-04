@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Airbnb project</title> 
+<link href="css/home.css" rel="stylesheet">
+<link href="css/bulma.css" rel="stylesheet">
+<link href="css/font.css" rel="stylesheet">
+<link href="css/airbnb.css" rel="stylesheet">
+<link href="css/commoneles.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+</head>
+
+<body>
+<h1 class="is-hidden-mobile">MEGAN HE</h1>
+    
+<!--nav-->
+    <nav>
+        <div class="nav-center is-hidden-mobile">
+         <ul>
+              
+          <li><a href="about.html" onclick="changeClass(this.id)" id="menu1" class="anchors">About</a></li>
+          <li><a href="project.html" onclick="changeClass(this.id)" id="menu2" class="anchors">Projects</a></li>
+          <li><a href="contact.html" onclick="changeClass(this.id)" id="menu3" class="anchors">Contact</a></li>
+         </ul>
+        </div>
+    </nav> 
+    
+<!--mobile bottom nav-->
+    <div id="cd-nav">
+		<a href="#0" class="cd-nav-trigger"><span></span></a>
+
+		<nav id="cd-main-nav">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="project.html">Project</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+<!--mobile bottom nav end-->  
+    <script>
+        function changeClass(clicked_id) {
+
+        var element = document.getElementById(clicked_id);
+          for (var i=1;i<=3;i++){
+            document.getElementById('menu'+i).classList.remove('active');
+          }
+          element.setAttribute("class", "active"); 
+        }
+    </script>
+<!--nav end-->
+
+    
+<!--desktop tablet Airbnb and brief-->
+<div class="columns is-gapless is-multiline is-hidden-mobile image-margin-top ">
+         <div class="column is-3"></div><div class="column is-14"></div> 
+             <div class="column is-6 no-ten-space">
+             <h1 class="project-title">STYLE GUIDE</h1>
+             </div>
+</div>
+<div class="columns is-gapless is-multiline is-mobile is-hidden-mobile image-margin-top ">
+         <div class="column is-3"></div> 
+         <div class="column is-14"></div> 
+         <div class="column is-6 no-ten-space">
+             <h2 class="project_describtion space-margin-bottom">INTERACTIVE ELEMENTS, TYPOGRAPHY HIERARCHY, COMBINE ELEMENTS, COLOR, FONTS</h2>
+         </div> 
+</div>
+<!--desktop tablet Airbnb and brief end-->
+    
+
+<!
+<!--desktop tablet infor end-->
+    
+<!--grey line-->
+    <div class="columns is-hidden-mobile">
+      <div class="column is-3"></div>
+        <div class="column is-14"></div>
+        <div class="grey-line"></div>
+        <div class="column is-15"></div>
+    </div>
+<!--grey line end-->
+    
+<!--desktop tablet research-->
+  <div class="columns is-gapless is-multiline is-hidden-mobile space-margin-top">
+        <div class="column is-1"></div>
+         <div class="column is-2">
+            <h2 class="grey">INTERACTIVE ELEMENTS</h2> 
+             
+         </div>
+       <div class="column is-14"></div>
+        <div class="column is-4 no-ten-space">
+            <h2>BUTTON</h2>
+            <h2 class="same-level-pt"><strong>CSS SELECTOR:</strong> .button
+            </h2>
+            
+             <h2 class="same-level-pt"><strong>SAMPLE CODE:</strong>  <code>&lt;a class="button"&gt; SEND &lt;/a&gt;</code></h2>
+                 
+                 <a class="button">SEND</a>
+        </div>
+      
+      <div class="column is-4"></div>
+      <div class="column is-14"></div>
+      
+      
+      
+      
+      <div class="column is-1"></div>
+         <div class="column is-2">
+         </div>
+       <div class="column is-14"></div>
+        <div class="column is-6 no-ten-space">
+            <h2 class="more-space-t-t-3">IN-TEXT LINK</h2>
+            <h2 class="same-level-pt"><strong>CSS SELECTOR:</strong> .intextlink
+            </h2>
+            
+             <h2 class="same-level-pt"><strong>SAMPLE CODE:</strong>  <code>&lt;a href=".html"&gt; STYLE GUIDE &lt;/a&gt;</code></h2>
+                   <a href="#"><h5 class="next-project-tt-space mobile-next-project-subt sg-padding-bottom">BITES</h5></a> 
+    
+        </div>
+      
+      <div class="column is-4"></div>
+      <div class="column is-14"></div>
+      
+      
+    
+  </div>
+
+    
+     <div class="columns is-gapless is-multiline is-hidden-mobile">
+         
+      <div class="column is-1"></div>
+         <div class="column is-2">
+         </div>
+       <div class="column is-14"></div>
+         
+         
+     <div class="column is-11-mobile is-offset-13-mobile is-4"> 
+           
+<h2>INPUT</h2>
+            <h2 class="same-level-pt"><strong>CSS SELECTOR:</strong> .here-to-there
+            </h2>
+            
+             <h2 class="same-level-pt"><strong>SAMPLE CODE:</strong>  <code>&lt;span class="attr"&gt; NAME &lt;/span&gt;</code></h2>
+         <form class="here-to-there form-frame">
+
+               
+                <span class ="attr">NAME</span>
+
+             	<input type="text" class="input">
+             
+
+                <span class ="attr">E-MAIL</span>
+
+               <input type="text" class="input">
+                <span class="attr">SUBJECT</span>
+
+                <input type="text" class="input">
+                <span class="attr">MESSAGE</span>
+                            
+                <textarea class="focus">
+                 </textarea>
+             
+               <a class="button">SEND</a>
+        </form>
+ 
+    </div> 
+    </div>         
+
+<!--desktop tablet research end-->
+
+<!--grey line-->
+    <div class="columns is-hidden-mobile">
+      <div class="column is-3"></div>
+        <div class="column is-14"></div>
+        <div class="grey-line grey-line-space-adjust"></div>
+        <div class="column is-15"></div>
+    </div>
+<!--grey line end-->
+    
+
+    <div class="columns is-gapless is-multiline is-hidden-mobile space-margin-top">
+  
+   
+        
+        <div class="column is-3">
+            <h2 class="grey">TYPOGRAPHY HIERARCHY</h2>      
+        </div>
+        
+        <div class="column is-14"></div>
+        
+        <div class="column is-2 no-ten-space">
+            <h2>ROLE</h2>
+        </div>
+        
+        <div class="column is-2 no-ten-space">
+            <h2>TASK</h2>
+        </div>
+        
+        <div class="column is-2 no-ten-space">
+            <h2>STAGES</h2></div>
+    </div>
+
+
+   <div class="columns is-gapless is-multiline is-hidden-mobile space-margin-top">
+       <div class="column is-3"></div>
+       <div class="column is-14"></div>
+       <div class="column is-2 no-ten-space">      
+           <p class="grey-text less-space-bt-t-p">
+            Logo design
+           </p>   
+       </div>
+       
+       <div class="column is-2 no-ten-space">
+           <p class="grey-text less-space-bt-t-p">
+               
+               Design a clean <br>brand logo
+           </p>                                                                                                              
+       </div>
+       
+       <div class="column is-2 no-ten-space">
+           <p class="grey-text less-space-bt-t-p">
+            Design research
+           </p>
+           <p class="grey-text">
+            Ideation + Exploration
+           </p>
+           <p class="grey-text">
+            Finalize design
+           </p>
+       </div>
+    </div>  
+<!--desktop tablet insight-->
+ <div class="columns is-gapless is-multiline is-hidden-mobile space-margin-top">
+  
+        <div class="column is-1"></div>
+         <div class="column is-2">
+         </div>
+       <div class="column is-14"></div>
+        <div class="column is-6 no-ten-space">
+           <h5>Paragrapgh</h5>
+            <h2 class="same-level-pt"> Minimalism that favours simplicity and clarity over excessive ornamentation. Minimal designs put a brand and its message before form, allowing for better recognition and easier communication with their customers.</h2></div>
+      <div class="column is-1"></div>
+      <div class="column is-14"></div>
+  </div>
+<!--desktop tablet insight end-->
+
+<!--grey line-->
+ <div class="columns is-hidden-mobile">
+      <div class="column is-3"></div>
+        <div class="column is-14"></div>
+        <div class="grey-line grey-line-space-adjust"></div>
+        <div class="column is-15"></div>
+    </div>
+<!--grey line end-->
+    
+    
+<!--desktop tablet idea-->
+ <div class="columns is-gapless is-multiline is-hidden-mobile">
+  
+        <div class="column is-1"></div>
+             <div class="column is-2">
+                <h2 class="grey">COMBINE ELEMENTS</h2> 
+             </div>
+            <div class="column is-14"></div>
+         <div class="column is-3">
+             <h5 class="persona">PRE - BOOKING</h5>
+           </div>   
+     
+</div>
+
+<div class="columns is-gapless is-multiline is-hidden-mobile space-margin-top"> 
+       <div class="column is-3">
+           </div>   
+       <div class="column is-14"></div>
+           
+       <div class="column is-16 no-ten-space">
+            <img src="img/air1.jpg" alt="switch-to-group">
+           <h5 class="phone-title">Mode change</h5>
+           <p class="phone-desc">Switch to group</p>
+       </div>
+       <div class="column is-1"></div>
+       <div class="column is-16 no-ten-space">
+            <img src="img/air2.jpg" alt="switch-to -group">
+            <h5 class="phone-title">Group Edit</h5>
+           <p class="phone-desc">Add or delete member</p>
+       </div>    
+  </div>
+    
+<!--grey line-->
+    <div class="columns is-hidden-mobile">
+      <div class="column is-3"></div>
+        <div class="column is-14"></div>
+        <div class="grey-line grey-line-space-adjust"></div>
+        <div class="column is-15"></div>
+    </div>
+<!--grey line end-->
+ 
+    
+<!--How-->   
+<!--how icon--> 
+    <div class="columns is-gapless is-multiline is-hidden-mobile space-margin-top">
+        <div class="column is-1"></div>
+             <div class="column is-2">
+                <h2 class="grey">COLOR</h2> 
+             </div>
+        <div class="column is-14"></div>
+             <div class="column is-1 no-ten-space grey-color">
+                 <p class="style-p">#888</p>
+            </div> 
+        
+        <div class="column is-14"></div>
+             <div class="column is-1 no-ten-space black-color">
+                 <p class="style-p-white">#000</p>
+            </div> 
+    </div>
+    
+    
+    
+ 
+<!--how icon end-->   
+
+    <!--grey line-->
+    <div class="columns is-hidden-mobile">
+      <div class="column is-3"></div>
+        <div class="column is-14"></div>
+        <div class="grey-line"></div>
+        <div class="column is-15"></div>
+    </div>
+<!--grey line end-->   
+    
+    
+<!--series 1 pre-booking-->
+    
+    
+     <div class="columns is-gapless is-multiline is-hidden-mobile">
+  
+        <div class="column is-1"></div>
+             <div class="column is-2">
+                <h2 class="grey">COMBINE ELEMENTS</h2> 
+             </div>
+            <div class="column is-14"></div>
+         <div class="column is-6">
+             <h5 class="persona">GILL SANS</h5>
+               <h2 class="more-space-t-t">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
+                 <br><h2>1 2 3 4 5 6 7 8 9 0</h2>
+           </div>   
+         <div class="column is-14"></div>
+         <div class="column is-2"></div>
+         
+            <div class="column is-1"></div>
+         <div class="column is-2"></div>
+           <div class="column is-14"></div>
+         
+             <div class="column is-6">
+       
+             <h5 class="persona more-space-t-t-3">OPEN SANS</h5>
+               <h2 class="more-space-t-t open-sans">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
+                 <br><h2>1 2 3 4 5 6 7 8 9 0</h2>
+           </div>   
+     
+     
+</div>
+
+
+    
+    
+    
+
+<!--How end-->
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+    
+<!--M o b i l e-->
+    <h1 class="mobile-meganhe is-hidden-tablet is-hidden-desktop">MEGAN HE</h1>
+        <div class="columns is-hidden-tablet is-hidden-desktop">
+      <div class="column is-3"></div>
+        <div class="column is-14"></div>
+        <div class="mobile-grey-line"></div>
+        <div class="column is-15"></div>
+    </div>
+    
+    <!--project type-->
+
+
+    <!--project type end-->   
+    
+    <!--mobile Airbnb brief-->
+    <div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop">
+             <h1 class="mobile-project-title mobile-h1">STYTLE GUIDE</h1>
+    </div>
+
+     <div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop">
+        <h2 class="project_describtion space-margin-bottom">INTERACTIVE ELEMENTS, TYPOGRAPHY HIERARCHY, COMBINE ELEMENTS, COLOR, FONTS</h2>
+    </div> 
+    <!--mobile Airbnb brief end-->
+    
+    <!--infor mobile version-->
+        <div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop">
+        <h4 class="mobile-grey-title">INTERACTIVE ELEMENTS</h4>
+        <h2 class="sgh2">BUTTON</h2>
+            <h4 class="same-level-pt"><strong class="sgh4">CSS SELECTOR:</strong> .button
+            </h4>
+            
+             <h4 class="same-level-pt"><strong class="sgh4">SAMPLE CODE:</strong>  <code>&lt;a class="button"&gt; SEND &lt;/a&gt;</code></h4>
+                 
+                 <a class="button">SEND</a>
+        </div>
+    
+     <div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop">
+     <h2 class="mobile-grey-title-space-top sgh2">IN-TEXT LINK</h2>
+             <h4 class="same-level-pt"><strong class="sgh4">CSS SELECTOR:</strong> .intextlink
+            </h4>
+            
+             <h2 class="same-level-pt"><strong class="sgh4">SAMPLE CODE:</strong>  <code>&lt;a href="bites.html"&gt; BITES &lt;/a&gt;</code></h2>
+                    <a href="#"><h5 class="next-project-tt-space mobile-next-project-subt sg-mobile-padding-bottom">BITES</h5></a> 
+        </div>
+    
+    
+    <div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop">
+   <h2 class="sgh2">INPUT</h2>
+            <h2 class="same-level-pt"><strong class="sgh4">CSS SELECTOR:</strong> .here-to-there
+            </h2>
+            
+             <h2 class="same-level-pt"><strong class="sgh4">SAMPLE CODE:</strong>  <code>&lt;span class="attr"&gt; NAME &lt;/span&gt;</code></h2>
+                     
+
+           
+
+         <form class="here-to-there form-frame">
+
+               
+                <span class ="attr">NAME</span>
+
+             	<input type="text" class="input">
+             
+
+                <span class ="attr">E-MAIL</span>
+
+               <input type="text" class="input">
+                <span class="attr">SUBJECT</span>
+
+                <input type="text" class="input">
+                <span class="attr">MESSAGE</span>
+                            
+                <textarea class="focus">
+                 </textarea>
+             
+               <a class="button">SEND</a>
+        </form>
+
+        </div>
+    
+    <!--infor mobile version end-->
+    
+     <!--my role mobile version-->
+        <div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop more-space-t-t-2">
+        <h4 class="mobile-grey-title">TYPOGRAPHY HIERARCHY</h4>
+        <h2>STAGES</h2>
+             <p class="grey-text">
+            Design research
+           </p>
+           <p class="grey-text">
+            Ideation + Exploration
+           </p>
+           <p class="grey-text">
+            Finalize design
+           </p>
+            
+            <h5>Paragrapgh</h5>
+            <h2 class="same-level-pt"> Minimalism that favours simplicity and clarity over excessive ornamentation. Minimal designs put a brand and its message before form, allowing for better recognition and easier communication with their customers.</h2>
+        </div>
+    <!--my role mobile version end-->
+    
+    <!--Reaearch-->
+    
+     
+        <div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop more-space-t-t-2">
+        <h4 class="mobile-grey-title">COMBINE ELEMENTS</h4>
+         <h5 class="mobile-sub-title">
+             Pre-booking</h5>
+         <h5 class="mobile-phone-title">Payment Method</h5>
+           <p class="phone-desc">Choose to pay together or separate</p>
+     </div>
+    
+         
+    <div class="columns is-hidden-tablet is-hidden-desktop"> 
+ 
+       <div class="column is-7-mobile is-offset-1-mobile no-ten-space mobile-phone-img">
+            <img src="img/air1.jpg" alt="switch-to-group">
+       
+       </div>
+  
+    </div>
+      
+        
+     
+  
+    <!--Reaearch end-->
+    
+    <!--Insignt-->
+        <div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop more-space-t-t-2">
+        <h4 class="mobile-grey-title">COLOR</h4>
+       
+         
+        <div class="column is-14"></div>
+             <div class="column is-1 no-ten-space grey-color">
+                 <p class="style-p">#888</p>
+            </div> 
+        
+        <div class="column is-14"></div>
+             <div class="column is-1 no-ten-space black-color">
+                 <p class="style-p-white">#000</p>
+            </div> 
+        </div>   
+    <!--Insignt end-->
+    
+    <!--Idea-->
+    <div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop more-space-t-t-2">
+        <h4 class="mobile-grey-title">FONTS</h4>
+        <h5 class="sg-font-title">GILL SANS</h5>
+               <h2 class="more-space-t-t">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
+                 <br><h2>1 2 3 4 5 6 7 8 9 0</h2>
+        
+             <h5 class="sg-font-title more-sapce-t-t">OPEN SANS</h5>
+               <h2 class="more-space-t-t open-sans">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
+                 <br><h2>1 2 3 4 5 6 7 8 9 0</h2>
+           </div>   
+         <div class="column is-14"></div>
+         <div class="column is-2"></div>
+         
+            <div class="column is-1"></div>
+         <div class="column is-2"></div>
+           <div class="column is-14"></div>
+          
+        
+    <!--Idea end--> 
+    
+     
+    
+
+   
+
+    
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script>   
+</body>
+
+</html>

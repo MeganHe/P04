@@ -53,6 +53,7 @@
 .more-space-t-t-3{
    margin-top: 100px;  
 }
+
 .info-title{
     font-size: 16px;
     letter-spacing: 2px;
@@ -336,4 +337,64 @@ nav a:after{
 /*about*/
 .about-margin-bottom-t-l{
  margin-bottom: 4%;   
+}
+
+/*style guide*/
+.text-align-left{
+text-align: left;
+padding-top:-80px;
+}
+.grey-color{
+    background-color:#888;
+    height: 100px;
+}
+.black-color{
+    background-color:#000;
+    height: 100px;
+}
+.style-p{
+    text-align: center;
+}
+.style-p-white{
+    color: white;
+    text-align: center;
+}
+.gill-sans{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: black;
+    margin: 0;
+    font-weight: 600;
+    font-family: "Gill Sans","Gill Sans MT";
+}
+
+.open-sans{
+      font-family: 'Open Sans', sans-serif;
+}
+
+.sgh4{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 6px;
+    font-weight: 600;
+}
+.sgh2{
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 6px;
+    font-weight: 600;
+}
+.sg-padding-bottom{
+    margin-bottom: 80px;
+}
+
+.sg-font-title{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 12px;
+    letter-spacing: 8px;
+    color: #888;
+    font-weight: 500; 
 }

@@ -21,6 +21,15 @@ h1{
     font-weight: 600;
     padding-top:80px;
 }
+.biggest-megan{
+        font-size: 25px;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    padding-top:80px;
+    text-decoration: none;
+}
 .mobile-meganhe{
     margin-top: -38%;
     font-size: 20px;
@@ -47,6 +56,14 @@ h1{
 }
 .mobile-grey-title{
     color:#a8a8a8;
+}
+
+.mobile-grey-title-space-top{
+     color:#a8a8a8;
+    margin-top: 50px;
+}
+.sg-mobile-padding-bottom{
+     margin-bottom: 50px;
 }
 .mobile-sub-title{
     margin-top: 3%;
@@ -146,6 +163,7 @@ h6{
 
 
 
+
 /*about page*/
 .about-big-title{
     text-align: left;
@@ -162,4 +180,14 @@ h6{
 .about-h5{
     text-align: right;
     font-weight: 600;
+}
+
+
+/*footer link*/
+.footer-link{
+    background-color:white;
+  color: black;
+  letter-spacing: 1.5px;
+  font-size: 11px;
+    padding: 40px 20px 80px;
 }

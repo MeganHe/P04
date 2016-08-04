@@ -1,15 +1,13 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home</title> 
 <link href="css/home.css" rel="stylesheet">
 <link href="css/bulma.css" rel="stylesheet">
 <link href="css/font.css" rel="stylesheet">
 <link href="css/commoneles.css" rel="stylesheet">
-
+<link href="css/project.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -26,7 +24,23 @@
          </ul>
         </div>
     </nav> 
+    
 
+<!--mobile bottom nav-->
+    <div id="cd-nav">
+		<a href="#0" class="cd-nav-trigger"><span></span></a>
+
+		<nav id="cd-main-nav">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="project.html">Project</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+<!--mobile bottom nav end-->  
+    
     <script>
         function changeClass(clicked_id) {
 
@@ -38,31 +52,59 @@
         }
     </script>
     
-    <div class="columns is-mobile">
-        <div class="column is-5 is-offset-1 home1">
-            <figure class="image is-4by3">
-            <img src="img/home1.jpg" alt="home_left_img" >
-            </figure>
-        </div>
- 
+    <script>
+    $(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
+    </script>
     
-        <div class="column is-5 home1">
-            <figure class="image is-4by3">
-            <img src="img/home2.jpg" alt="home_left_img" >
-            </figure>
-        </div>
-    </div>
+
     
-    <footer class="footer">
+
+    
+     <div class="columns is-multiline is-hidden-mobile space-margin-top"> 
+      
+
+       <div class="column is-6 is-offset-3">
+             <img src="img/ha.jpg" alt="home_left_img" > 
+       </div>
+        
+       
+  </div>
+    
+
+<!--mobile version-->
+
+    
+<div class="column is-11-mobile is-offset-13-mobile is-hidden-tablet is-hidden-desktop"> 
+     <a href="airbnb.html">
+       <img src="img/ha.jpg" alt="home_left_img" >
+                   </a>
+             
+<!--        <img class="mobile-less-space-p-img" src="img/home1.jpg">    -->
+</div> 
+    
+    
+
+    
+    
+    
+    
+<footer class="footer">
     <div class="container">
          <div class="content has-text-centered">
-             <p>
+             
              SITE BY MEGAN HE 
-             </p>
+             
          </div>
     </div>
-    </footer>
+</footer>
+
     
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> 
 </body>
 
 </html>

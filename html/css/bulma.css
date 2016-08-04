@@ -1270,17 +1270,24 @@ margin-top: 9%;
   position: absolute !important;
 }
 
+/*
+
 .content a:not(.button) {
   border-bottom: 1px solid #d3d6db;
 }
+*/
 
+/*
 .content a:not(.button):visited {
   color: #847bb9;
 }
+*/
 
+/*
 .content a:not(.button):hover {
   border-bottom-color: #1fc8db;
 }
+*/
 
 .content li + li {
   margin-top: 0.25em;
@@ -6831,11 +6838,15 @@ a.panel-block:hover {
   color: #222324;
 }
 
+/*
 .footer a:not(.icon), .footer a:visited:not(.icon) {
   border-bottom: 1px solid #d3d6db;
 }
+*/
 
+/*
 .footer a:not(.icon):hover, .footer a:visited:not(.icon):hover {
   border-bottom-color: #1fc8db;
 }
+*/
 /*# sourceMappingURL=bulma.css.map */
