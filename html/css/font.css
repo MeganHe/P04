@@ -1,3 +1,18 @@
+p{
+    font-family: "Open Sans";
+/*    font-family: "Century Gothic";*/
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+    color: black;
+       -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+    letter-spacing: 0.8px;
+}
 h1{
     font-size: 25px;
     color: black;
@@ -60,6 +75,12 @@ h1{
      color:#a8a8a8;
     font-weight: 600;
 }
+.mobile-next-project-subt{
+    text-align: left;
+}
+.next-project{
+    text-align: left;
+}
 .red{
     font-size: 20px;
 /*    color:#ff5a5f;*/
@@ -113,3 +134,32 @@ h5{
     font-weight: 500;
 }
 
+h6{
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+
+
+
+
+/*about page*/
+.about-big-title{
+    text-align: left;
+}
+
+.about-p{
+    font-size: 14px;
+    color: black;
+      font-family: "Open Sans";
+    font-weight: 500;
+	line-height: 23px;
+    letter-spacing: .8px;
+}
+.about-h5{
+    text-align: right;
+    font-weight: 600;
+}

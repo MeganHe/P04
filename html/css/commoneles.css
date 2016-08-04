@@ -3,6 +3,12 @@
     width:80%;
     background-color: black;
 }
+.line-middle{
+    height:100%;
+    width:1px;
+    background-color: black;
+    margin-left: 50%;
+}
 .grey-line{
     height:1px;
     width:100%;
@@ -40,7 +46,11 @@
 .more-space-t-t{
    margin-top: 20px;
 }
+
 .more-space-t-t-2{
+     margin-top: 50px; 
+}
+.more-space-t-t-3{
    margin-top: 100px;  
 }
 .info-title{
@@ -323,4 +333,7 @@ nav a:after{
 
 
 
-
+/*about*/
+.about-margin-bottom-t-l{
+ margin-bottom: 4%;   
+}
